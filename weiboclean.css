@@ -1,0 +1,71 @@
+/* 去掉背景 */
+body {
+    background-image: none !important;
+    background-color: #F6F6F6 !important;
+}
+/* 主体 */
+.WB_frame {
+    background-color: transparent !important;
+    width: 770px;
+}
+/* 菜单 */
+.gn_nav .gn_nav_list li {
+    display: none !important;
+}
+.gn_nav .gn_nav_list li:first-child,
+.gn_nav .gn_nav_list li:last-child {
+    display: inline !important;
+}
+
+/* 左侧栏 */
+.WB_left_nav a,
+.WB_left_nav a .ico_block em {
+    color: #666 !important;
+}
+.WB_left_nav a:hover,
+.WB_left_nav a:hover .ico_block em {
+    color: #222 !important;
+}
+
+/* 微博内容 */
+.WB_frame #plc_main {
+    width: 620px;
+}
+/* 各种标 */
+.WB_info a[title="微博会员"],
+.WB_info a[title="带着微博去旅行"] {
+    display: none !important;
+}
+
+/* 右侧栏 */
+/* 彻底砍掉的要了干嘛 */
+.WB_main_r {
+    display: none !important;
+}
+
+/* 页脚 */
+.WB_footer {
+    display: none !important;
+}
+
+/* 聊天 */
+.WB_webim {
+    display: none !important;
+}
+/* 播放器 */
+.PCD_mplayer {
+    display: none !important;
+}
+/* 各种杂七杂八 */
+/* 不知道哪里的一堆提示 */
+.W_tips {
+    display: none !important;
+}
+/* 发布框上部热门话题 */
+.send_weibo .title_area .key {
+    display: none !important;
+}
+/* 搜索框内热搜 */
+.gn_search_v2 .placeholder {
+    display: none !important;
+}
